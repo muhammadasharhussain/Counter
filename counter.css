@@ -1,0 +1,84 @@
+body{
+	background-color: #DEBFA6;
+/*background-image: linear-gradient(to right, #CCCCCC , #DEBFA6);*/
+}
+
+.header h3 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 9px;
+	background-color: #CA91C3;
+	border-radius: 50em;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+#count{
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	min-width: 300px;
+	min-height: 200px;
+	border-radius: 30px;
+	background-color: #92B67C;
+	border: none;
+	outline: none;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+}
+#count:hover{
+	background-color:#87AE6F ;
+}
+#count:active{
+	background-color: #7DA762;
+}
+.txt{
+	font-size: 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.shower{
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	position: relative;
+	bottom: 100px;
+	background-color: #6B2737	;
+	line-height: 50px;
+}
+
+.resultText{
+	font-family: 'Titillium Web', sans-serif;
+	color: #DEBFA6;
+	font-size: 2em;
+}
+
+.rst{
+text-align: center;
+position: relative;
+bottom: 85px;
+}
+.rst button {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%	;
+	border: none;
+	outline: none;
+}
+.rst:hover{
+	background-color: #EBEBEB;
+}
+
+.rst button:active{
+	background-color: #CCCCCC;
+}
+.rstText{
+	font-size: 19px;
+}
